@@ -1,0 +1,205 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Style" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/red</item>
+        <!--  color primary for button and action bar-->
+
+        <item name="colorPrimaryDark">@color/blue</item>
+        <!--  color primary dark use for status bar-->
+
+        <item name="colorPrimaryVariant">@color/red</item>
+        <!--  color primary variants use for status bar-->
+
+
+        <item name="colorAccent">@color/green</item>
+        <!--        use for radio button checkbox switch floating action button, color under the edit text,color of cursor,progressbar color,links,selection controle,button,sliders-->
+        <!--        when colorcontrolenormal,colorcontoleactivated,colorcontolehighligt not defined all color by deffult defined by color accent-->
+
+
+        <item name="colorSecondary">@color/yeelow</item>
+        <!--        uses for action floating button-->
+
+
+        <item name="colorOnSecondary">@color/blue</item>
+        <!--        the color on the secondery like the color of icon on floating action button-->
+
+        <item name="android:textColorPrimary">@color/blue</item>
+        <!--            this for the text on the primary on action bar-->
+
+        <item name="android:windowBackground">@color/yeelow</item>
+        <!--        this for color of back ground and image windowBackground have priority greater than colorbackground  -->
+
+        <item name="colorSurfaceInverse">@color/blue</item>
+        <!--        when i make delete for thing they have box have text and button undo  the background of this box are colosurfaceinverse-->
+
+        <item name="colorOnSurfaceInverse">@color/white</item>
+        <!--        when i make delete for thing they have box have text and button undo  the color of text  of this box are colorOnSurfaceInverse-->
+
+        <item name="colorPrimaryInverse">@color/green</item>
+        <!--        when i make delete for thing they have box have text and button undo  the color of the button  of this box are colorPrimaryInverse-->
+
+        <item name="android:textColorSecondary">@color/purpule</item>
+        <!--        the color of the text in nevegation bar l 3 point le fo2 ba3da ta3et l menu ,l 3 sha7tatb l fo2 ba3da la tfout 3ala section tenye haw l talt no2at _
+                                                                                                                                                                       _
+                                                                                                                                                  _
+
+
+                                                                                                                                                       -->
+        <item name="colorControlHighlight">@color/purpule</item>
+        <!--        when you press to the button there is effect shafefe bekoun loun ana 8ayrto la purpule-->
+
+
+        <item name="colorControlActivated">@color/yeelow</item>
+        <!--        when you prees the check box the switch when its on the color is color controleactivated not insde the check box or wistch outside the box it self-->
+
+        <item name="colorControlNormal">@color/red</item>
+        <!--        when the check box not checked and sitch not on all the conrole button off colorcontrolenormal is the color-->
+
+
+        <item name="android:navigationBarColor">@color/blue</item>
+        <!--           navigation color-->
+
+        <item name="android:statusBarColor">@color/yeelow</item>
+        <!--        status bar for device-->
+
+        <item name="android:textColor">@color/purpule</item>
+        <!--        for the text color textview-->
+
+        <item name="android:editTextColor">@color/yeelow</item>
+        <!--        color for edit text-->
+
+        <item name="android:colorBackground">@color/red</item>
+        <!--        background color ony color not support image-->
+
+        <item name="colorError">@color/purpule</item>
+        <!--        when you write invalide input,color of error messgae such as when network requset faild,when you want to display alert that there be error
+        -->
+
+        <item name="android:navigationBarDividerColor">@color/red</item>
+        <!--        loun l 5at fou2 l navigation bar-->
+
+        <item name="colorSurface">@color/green</item>
+        <!--        color background of cardview background of ui elements as we seen in activity2-->
+
+
+        <!--        hala2 houn b7ot l style le ana 3mlto 3ashn 5ale kel button nafs heed l style badel ma emro2 3ala kel button-->
+        <item name="materialButtonStyle">@style/mybuttonstyle</item>
+
+        <!--        keef 3ana bel website h1,h2,h3 7ajm l 5at houn nafs she bt2ol ana l h2 bade yeh ykoun 3emel inherite mn materialcommpinent h2
+        ba3den b2alb text view 2aw aye she she text btktob textapperance w bt3yt lale badak yeh masln ?attr/textAppearanceHeadline2 -->
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+
+
+    </style>
+
+    <!--    i have 3 library:Appcompact
+                             MaterialCommponents
+                             Android design support library(material 3)-->
+
+
+    <!--    for text: we can use textappearnce for text any thing of the edit text button text view..etc    -->
+
+    <style name="mystyle" parent="TextAppearance.MaterialComponents.Body1">
+        <!--        when we use material commponent use TextAppearance.MaterialComponents.Body1 -->
+
+    </style>
+
+
+    <style name="mystyle1" parent="TextAppearance.AppCompat.Body1">
+        <!--        when we use appcompat use TextAppearance.AppCompat.Body1 -->
+
+    </style>
+
+    <!--    for button:   -->
+    <style name="mystyle2" parent="Widget.MaterialComponents.Button">
+        <!--        when we use material commponent use Widget.MaterialComponents.Button -->
+
+    </style>
+
+    <style name="mystyle3" parent="Widget.AppCompat.Button">
+        <!--        when we use appcompat use Widget.AppCompat.Button-->
+
+    </style>
+
+    <!--    in general for text use :TextAppearance
+
+   other ui element use Widget.(AppCompat or MaterialComponents) . name of the ui elemt button,edittext,textview...etc
+
+-->
+
+
+    <!--    you can make style for your self and allow another style to inherite it:-->
+
+    <style name="mystyle7">
+        <item name="android:height">120dp</item>
+        <item name="android:width">120dp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+
+    <style name="mystyle8" parent="mystyle7">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+
+    <!--    you can make a style for every ui and make it a style by diffult wich mean 3mlt ana style la button ba3den bade yeh heed l style le kel l button b7ota aw 7a 7ota fa
+    ba3mel style berja3 betla3 3al theme ta3et l app w b7et eno item button style w esm l style le ana 3mlto
+
+    exmple:-->
+
+    <style name="mybuttonstyle" parent="Widget.MaterialComponents.Button">
+        <item name="background">@color/red</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="fontFamily">sans-serif</item>
+
+    </style>
+    <!--note to change background clor image use android:backgroundTint or android:background
+    if i want to change shape corner redius make shape then in back ground applied it
+
+    in materialcommponent or appcompat dosnt applied to make button style in deffult so use appcompat always-->
+
+
+    <!--other buttons  Widget.MaterialComponents.Button.OutlinedButton   outlinedbutton mean the button without background-->
+    <style name="otherbuttons" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">40sp</item>
+
+    </style>
+
+    <style name="otherbuttons1">
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/purpule</item>
+
+    </style>
+
+
+    <!--if i want to change style for every button i have 2 option use appcompat or materialcommponent
+
+    if i use appcompat i have to make sure the main theme extend appcomat and the style that i make it extend also the widget.appcompat.button
+
+    and if i wnat to change redius i have to change it from shape and when apply the button style in man style use android:style
+
+
+    while in material commponent i have to make sure extend the material commponent in main style and the style of button extend widget.appcommonent.button
+    and if i want to change redius i have to deirectly use cornerredius and in main style when apply style to button use materialbuttonstyle-->
+
+
+
+
+    <!--    note iza 3mlt defult style la kel l button w jeet la 2a3mel new style la button m3yane 7a dal nafs she bas byet8ayar eshya le enta katbta bas bas be2e l eshya bedalo metl ba3d bas fena hay sha8le n7ola iza sta3mlna extend la library tenye mtl l outline button-->
+
+    <!--    cornerfamily rounded or cut-->
+    <style name="shareapperance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">2dp</item>
+        <item name="cornerSizeTopLeft">5dp</item>
+    </style>
+
+    <style name="Theme.Style" parent="Base.Theme.Style"></style>
+</resources>
